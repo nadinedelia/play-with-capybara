@@ -14,6 +14,6 @@ end
 
 get '/cat' do
 
-"<img src='http://bit.ly/1eze8aE' style='border: 2px dashed red'></img>"
+erb(:index)
 
 end
