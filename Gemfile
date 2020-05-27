@@ -9,4 +9,6 @@ group :development, :test do
   gem "rspec"
   gem 'sinatra', '~> 2.0', '>= 2.0.8.1'
   gem 'shotgun', '~> 0.9.2'
+  gem 'selenium-webdriver'
+  gem 'capybara'
 end
